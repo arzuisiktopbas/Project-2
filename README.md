@@ -16,6 +16,19 @@ We utilized Alpaca to pull stock data on the list of 25 previously obtained. Thi
  * Performance : Today +10% 
  * Current Volume : Over 10M
  * Country : USA
+ 
+We had issues with Alpaca being down which made it impossible to run and test our code, but luckily it returned. This forced us to consider using other data sources like Pandas Data Reader or Yahoo Finance.
+
+**ARIMA**
+
+After receiving the price predictions, we found code that would have allowed us to create a dynamic & functional paper trade using the alpaca api. 
+The most difficulties arose from comparison of our predicted prices to original real-time prices. Putting them into a DataFrame in order to assess percentage up/down proved time consuming.
+
+**LSTM**
+
+We pulled data from Yahoo API due to difficulties with Alpaca api not supporting adjusted close.
+Split ratio changed the mode significantly. The more we increase the split ratio, the more accurate our model became, however, the higher we increased our split ratio, the less data we had for backtesting.
+
 
 ## Models
 
