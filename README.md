@@ -64,8 +64,7 @@ Our first LSTM model gave  19% loss  so to adjust it we adjusted:
     * dropout layer down 0.5 to 0.2 
     * Resulting in lower 18% loss
     
-![image source](https://github.com/arzuisiktopbas/Project-2/blob/main/Images/Prediction_%2518.png)
-![image source](https://github.com/arzuisiktopbas/Project-2/blob/main/Images/Prediction_%2519.png)
+![image source](https://github.com/arzuisiktopbas/Project-2/blob/main/Images/Prediction_%2518.png)![image source](https://github.com/arzuisiktopbas/Project-2/blob/main/Images/Prediction_%2519.png)
 
 
 ## Model Summary
