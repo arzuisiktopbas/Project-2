@@ -57,6 +57,7 @@ AR and MA terms have p values of zero, which suggests that they are useful to pr
 We tried AR and MA up to 5 lags, 1 and 2 for integration term. Arima (1,1,1) has the lowest AIC & BIC.
 
 **LSTM Model Performance**
+
 Our first LSTM model gave  19% loss  so to adjust it we adjusted:
 
     * split down 0.1 to 0.7
